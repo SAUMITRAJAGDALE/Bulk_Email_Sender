@@ -4,7 +4,7 @@ import smtplib
 SenderAddress = "framesvashi@gmail.com"
 password = "fr123alumni"
 
-e = pd.read_excel("Email.xlsx")
+e = pd.read_excel("test.xlsx")
 emails = e['Emails'].values
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
